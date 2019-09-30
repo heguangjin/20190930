@@ -1,0 +1,5 @@
+<!--cardQRcode.wxml-->
+<canvas canvas-id='share' class="canvaC" style="height:{{canvasHeight}}px"></canvas>
+<!-- <view class="saveImg">保存图片</view> -->
+<view class="saveImg" catchtap="createImg">保存图片</view>
+
